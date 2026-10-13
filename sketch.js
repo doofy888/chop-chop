@@ -6,7 +6,7 @@ const NAVY = "#0b1f4d", SKIN = "#f2cfa6";
 /* ---------- "API" ---------- */
 // Ja tev ir sava API adrese, ieraksti to šeit. Tai jāatgriež JSON masīvs:
 // [{"word":"ILONS MASKS","hint":"..."}, ...]. Ja API_URL ir tukšs, tiek izmantots iebūvētais.
-const API_URL = "";
+const API_URL = "https://github.com/doofy888/chop-chop/blob/main/words.json";
 const THEMES = {
   giljotina: { name: "Nākamie rindā uz giljotīnu", sub: "Šobrīd esošie miljardieri", words: [
     ["Ilons Masks", "Vada Tesla un SpaceX"], ["Džefs Bezoss", "Dibinājis Amazon"],
